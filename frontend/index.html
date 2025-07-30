@@ -14,6 +14,20 @@
             display: flex;
             align-items: center;
             justify-content: center;
+
+            .loading-indicator {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 9999;
+}
+
         }
         .login-card {
             background: white;
@@ -43,6 +57,11 @@
         }
     </style>
 </head>
+
+    <div id="loadingIndicator" class="loading-indicator">
+    <i class="fas fa-spinner fa-spin"></i> Carregando sistema...
+</div>
+
 <body>
     <!-- Login Screen -->
     <div id="loginScreen" class="login-container">
