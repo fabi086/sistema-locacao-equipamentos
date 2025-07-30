@@ -1,0 +1,15 @@
+{
+  "name": "sistema-locacao-equipamentos",
+  "version": "1.0.0",
+  "description": "Sistema completo para locação de equipamentos de construção civil",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "dev": "cd backend && npm run dev",
+    "install-all": "npm install && cd backend && npm install",
+    "setup": "npm run install-all"
+  },
+  "keywords": ["equipment", "rental", "construction", "management"],
+  "author": "Sistema de Locação",
+  "license": "MIT"
+}
